@@ -1,14 +1,14 @@
-kjv: kjv.sh kjv.awk kjv.tsv
-	cat kjv.sh > $@
+drb: drb.sh drb.awk drb.tsv
+	cat drb.sh > $@
 
 	echo 'exit 0' >> $@
 
 	echo '#EOF' >> $@
-	tar cz kjv.awk kjv.tsv >> $@
+	tar cz drb.awk drb.tsv >> $@
 
 	chmod +x $@
 
-test: kjv.sh
-	shellcheck -s sh kjv.sh
+test: drb.sh
+	shellcheck -s sh drb.sh
 
 .PHONY: test

@@ -1,10 +1,10 @@
-# kjv [![AUR](https://img.shields.io/badge/AUR-kjv--git-blue.svg)](https://aur.archlinux.org/packages/kjv-git/)
+# drb
 
 Read the Word of God from your terminal
 
 ## Usage
 
-    usage: ./kjv [flags] [reference...]
+    usage: ./drb [flags] [reference...]
 
       -l      list books
       -W      no line wrap
@@ -33,10 +33,10 @@ Read the Word of God from your terminal
 
 ## Build
 
-kjv can be built by cloning the repository and then running make:
+drb can be built by cloning the repository and then running make:
 
-    git clone https://github.com/bontibon/kjv.git
-    cd kjv
+    git clone https://github.com/Andrew-William-Smith/drb.git
+    cd drb
     make
 
 ## License
