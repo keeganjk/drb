@@ -178,7 +178,12 @@ function processline() {
 		last_book_printed = $2
 	}
 
-	printf("%d:%d\t", $4, $5)
+	if ($5 == "") {
+		printf("%s %d\t", $2, $4)
+	}
+	else {
+		printf("%d:%d\t", $4, $5)
+	}
 	printverse($6)
 	outputted_records++
 }
