@@ -179,7 +179,7 @@ function processline() {
 	}
 
 	if ($5 == "") {
-		printf("%s %d\t", $2, $4)
+		printf("%d\t", $4)
 	}
 	else {
 		printf("%d:%d\t", $4, $5)
