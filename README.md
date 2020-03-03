@@ -6,7 +6,7 @@ The following texts are included:
 - [Douay-Rheims Bible, Challoner Revision](https://www.ccel.org/c/challoner/douayrheims/dr.html)
 - [Catechism of the Catholic Church](http://www.vatican.va/archive/ENG0015/_INDEX.HTM)
 - [Code of Canon Law](http://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html)
-- [Code of Canons of Oriental Churches](www.jgray.org/codes/cceo90eng.html)
+- [Code of Canons of Oriental Churches](http://www.jgray.org/codes/cceo90eng.html)
 - [General Instruction of the Roman Missal](http://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_en.html)
 
 The texts were machine parsed from the above sources, and while they were partially manually verified, some errors may be present, so *caveat utilitor*.
