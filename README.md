@@ -46,9 +46,9 @@ Efforts have been taken to preserve footnotes and references where possible; the
 
 drb can be built by cloning the repository and then running make:
 
-    git clone https://github.com/Andrew-William-Smith/drb.git
+    git clone https://github.com/theunpleasantowl/drb.git
     cd drb
-    make
+    make install
 
 ## License
 
