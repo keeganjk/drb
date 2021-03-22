@@ -42,13 +42,26 @@ Efforts have been taken to preserve footnotes and references where possible; the
           <Book>:<Chapter>/<Search>
               All verses in a chapter of a book that match a pattern
 
-## Build
+## Installation
 
-drb can be built by cloning the repository and then running make:
+Install `drb` by running:
 
-    git clone https://github.com/theunpleasantowl/drb.git
-    cd drb
-    sudo make install
+```
+git clone https://github.com/theunpleasantowl/drb.git
+cd drb
+sudo make install
+```
+
+## Arch User Repository
+
+Arch users can install the package from the [AUR](https://aur.archlinux.org/packages/drb-git/).
+
+The package name is `drb-git`. For example, if you have an AUR helper installed you may run:
+
+```
+yay -S drb-git
+```
+
 
 ## License
 
